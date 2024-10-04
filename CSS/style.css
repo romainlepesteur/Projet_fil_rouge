@@ -1,0 +1,14 @@
+footer{
+    text-align: center;
+    margin-top: 100%;
+}
+
+.header{
+    display: flex;
+    border-bottom: 50cm;
+    border-color: rgb(35, 34, 43);
+}
+
+body{
+    background-color: rgb(4, 24, 33);
+}
