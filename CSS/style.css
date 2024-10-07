@@ -28,35 +28,38 @@ header{
 }
 
 hr{
-    border: 1;
-    color: white;
+    border: 0.1;
+    color: yellow;
 }
 main p{
-    color: grey
+    color: grey;
 }
 
 .present{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 8%;
+    margin-bottom: -2%;
 }
 
 .present p {
     font-family: "Yeseva One", sans-serif;
     color: white;
-    font-size: 50px;
+    font-size: 40px;
+
 
 }
 
 main .contmain{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 8%;
+    width: 45%;
 
 }
 
 main .textm{
-    width: 50%;
+
+   
+    font-size: 17px;
 
 }
 
@@ -81,4 +84,21 @@ body{
 
 p{
     color: white;
+}
+
+main ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+main li{
+    margi
 }
