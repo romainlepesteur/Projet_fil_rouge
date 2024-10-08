@@ -26,11 +26,14 @@ header{
     padding: 18px;
 
 
+
 }
 
 .item{
-    align-content: end;
+    align-content: center;
     justify-self: end;
+    margin: 5%;
+
 }
 
 hr{
@@ -115,13 +118,14 @@ main li{
     background-color: #1ed79e;
 }
 
-.grid {
+.grid{
+    margin-top: 5%;
     display: grid;
-    gap: 1%;
+    grid-gap: 1px;
 }
 
 .grid img{
-    width: 15%;
+    width: 20%;
     height: auto;
     display: block;
 }
@@ -132,3 +136,4 @@ main li{
         align-items: center; /* Centre tous les éléments du header */
     }
 }
+
