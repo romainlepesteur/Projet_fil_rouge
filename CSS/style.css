@@ -36,7 +36,7 @@ header{
 }
 
 hr{
-    border: 0.1;
+    border: 0.1px;
     color: yellow;
 }
 
@@ -158,7 +158,7 @@ main li{
     main ul {
         display: flex;
         flex-wrap: wrap;
-        list-style-type: none;s
+        list-style-type: none;
         color: white;
         font-size: 7px;
         align-items: center;
