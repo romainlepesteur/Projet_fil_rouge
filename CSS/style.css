@@ -24,10 +24,9 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 18px;
-
-
-
 }
+
+
 
 .item{
     align-content: center;
@@ -132,8 +131,52 @@ main li{
 
 @media (max-width: 600px) {
     header {
-        padding: 20px;
-        align-items: center; /* Centre tous les éléments du header */
+        grid-template-columns: 1fr;
+        padding: 0 32px;
+        text-align: center;
     }
+    
+    
+
+
+    
+    header p {
+        font-size: 24px;
+    }
+
+    main ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        color: white;
+        font-size: 7px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
 }
 
+@media (max-width: 600px) {
+    header {
+        grid-template-columns: 1fr;
+        padding: 0 32px;
+        text-align: center;
+    }
+    
+    
+
+
+    
+    header p {
+        font-size: 24px;
+    }
+
+    main ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        color: white;
+        font-size: 7px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+}
